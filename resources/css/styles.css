@@ -1,0 +1,191 @@
+header {
+    padding: 5vh;
+    border-bottom: solid 1px gainsboro;
+}
+
+.textBlock {
+    position: relative;
+    padding: 5vh 0;
+}
+
+span {
+    color: #003764;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: initial;
+}
+
+a:hover {
+    color: initial;
+}
+
+
+footer {
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+
+.footerContainer {
+    border-top: 2px solid #003764;
+}
+
+.socialNetwork {
+    background: url(/resources/images/Social-oldnavy-.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footerContainer ul {
+    list-style: none;
+}
+
+.footerContainer ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.footerContainer ul li:first-child {
+    text-transform: uppercase;
+}
+
+.socialContainer {
+    margin: 10vh;
+}
+
+.socialFb {
+    background-position: 0 0;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+
+}
+
+.socialTwitter {
+    background-position: -46px 0;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+
+}
+
+.socialInsta {
+    background-position: -136px 0;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+
+}
+
+.socialFb a,
+.socialInsta a,
+.socialTwitter a {
+    color: transparent;
+}
+
+.contact {
+    margin-top: 10vh;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .tag-title,
+    .tag-title--level-1 {
+        font-size: 34.284pt;
+        font-size: 2.857rem;
+        letter-spacing: 0.5px;
+    }
+
+    .tag-title--level-3 {
+        font-size: 13.704pt;
+        font-size: 1.142rem;
+    }
+
+}
+
+@media screen and (max-width:1023px) {
+
+    .socialContainer {
+        margin: 5vh 0;
+    }
+
+    .internal-page {
+        padding: 10px 0 !important;
+    }
+}
+
+.textDiscount {
+    font-size: .8rem;
+}
+
+.privacy {
+    color: #003764;
+}
+
+.internal-page {
+    padding: 50px 0;
+    letter-spacing: 0.025em;
+}
+
+.internal-page__content {
+    max-width: 700px;
+}
+
+.board--big,
+.board--medium,
+.board--small,
+.re-central--big,
+.re-central--medium,
+.re-central--small {
+    width: auto;
+}
+
+.board--big,
+.board--medium,
+.board--small,
+.re-central,
+.re-central--big,
+.re-central--medium,
+.re-central--small {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.internal-page .tag-title {
+    border-bottom: 1px solid #333333;
+    text-align: left;
+    line-height: 55px;
+}
+
+.tag-title,
+.tag-title--level-1 {
+    padding-top: 12px;
+    padding-bottom: 0;
+    display: block;
+    line-height: 1;
+    font-size: 27.684pt;
+    font-size: 2.307rem;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.internal-page__summary {
+    font-size: 0.75em;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.internal-page__summary li,
+.internal-page__summary p {
+    color: #333333;
+    list-style: disc;
+}
+
+.static-layout__paragraph {
+    padding: 0;
+    margin: 8px 0;
+    font-size: 0.9em;
+    font-weight: 400;
+}
