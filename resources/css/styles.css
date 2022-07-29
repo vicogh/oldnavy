@@ -32,7 +32,7 @@ footer {
 }
 
 .socialNetwork {
-    background: url(resources/images/Social-oldnavy-.png);
+    background: url(/resources/images/Social-oldnavy-.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
