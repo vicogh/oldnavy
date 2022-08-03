@@ -22,7 +22,7 @@ a:hover {
 }
 
 footer {
-  margin-top: 15vh;
+  margin-top: 5vh;
   margin-bottom: 10vh;
 }
 
@@ -50,7 +50,8 @@ footer {
 }
 
 .socialContainer {
-  margin: 10vh;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
 }
 
 .socialFb {
