@@ -107,6 +107,9 @@ footer {
   .internal-page {
     padding: 10px 0 !important;
   }
+  .footerPrivacy span {
+    margin: 2vh 0;
+  }
 }
 
 .textDiscount {
