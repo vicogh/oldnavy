@@ -110,6 +110,7 @@ footer {
   .footerPrivacy span {
     margin: 2vh 0;
     display: block;
+    color: #003764;
   }
 }
 
@@ -189,4 +190,5 @@ footer {
 }
 .footerPrivacy span {
   margin: 0 2vw;
+  color: #003764;
 }
