@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aviso de Privacidad | Old Navy</title>
+    <link rel="icon" type="image/x-icon" href="resources/images/on-favicon.ico" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="resources/css/styles.css" />
+
+</head>
+
+<body class="stores">
+    <style>
+        #map {
+            height: 400px;
+            /* The height is 400 pixels */
+            width: 100%;
+            /* The width is the width of the web page */
+        }
+    </style>
+    <header>
+        <div class="container">
+            <div class="col-12 col-xl-12">
+                <div class="col-xl-12 text-center">
+                    <a href="/">
+                        <img src="resources/images/Old_Navy_Logo.png" alt="Old Navy" width="150" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main role="main" class="main">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-xl-4">
+                    <div class="tag-title">Encuentra tu Tienda</div>
+                    <p>Selecciona un estado para ver la información</p>
+                    <select name="Estado" id="Estado">
+                        <option value="">Seleccione Estado</option>
+                        <option value="CDMX">CIUDAD DE MÉXICO</option>
+                        <option value="EDOMEX">ESTADO DE MÉXICO</option>
+                        <option value="JALISCO">JALISCO</option>
+                        <option value="MORELOS">MORELOS</option>
+                        <option value="NUEVO-LEON">NUEVO LEÓN</option>
+                        <option value="PUEBLA">PUEBLA</option>
+                        <option value="QUERÉTARO">QUERÉTARO</option>
+                        <option value="QUINTANA-ROO">QUINTANA ROO</option>
+                    </select>
+                    <div class="direccion-sucursal" id="info_store"></div>
+                    <div class="sucursal-list" data-height="parent">
+                        <div class="sucursal-item item-generic" data-height="siblings" style="min-height: 25px;">
+                            <div class="sucursal-item-summary item-generic-caption CDMX">
+                                <a onclick="mostrarSucursales('1')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="19.31390796"
+                                    data-longitude="-99.21933997">
+                                    OLD NAVY ARTZ PEDREGAL
+                                </a>
+                                <a onclick="mostrarSucursales('2')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="19.44829367"
+                                    data-longitude="-99.15271328">
+                                    OLD NAVY FORUM BUENAVISTA
+                                </a>
+                                <a onclick="mostrarSucursales('3')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="19.34623276"
+                                    data-longitude="-99.17860795">
+                                    OLD NAVY OASIS
+                                </a>
+                                <a onclick="mostrarSucursales('4')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="19.40541728"
+                                    data-longitude="-99.15532413">
+                                    OLD NAVY PARQUE DELTA
+                                </a>
+                                <a onclick="mostrarSucursales('5')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="19.38415285"
+                                    data-longitude="-99.08275956">
+                                    OLD NAVY PARQUE TEZONTLE
+                                </a>
+                                <a onclick="mostrarSucursales('6')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="19.30016978"
+                                    data-longitude="-99.13715555">
+                                    OLD NAVY PASEO ACOXPA
+                                </a>
+                                <a onclick="mostrarSucursales('7')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="19.30655275"
+                                    data-longitude="-99.18974971">
+                                    OLD NAVY PERISUR
+                                </a>
+                                <a onclick="mostrarSucursales('8')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="19.48769124" data-longitude="-99.1525504">
+                                    OLD NAVY VIA VALLEJO
+                                </a>
+                                <a onclick="mostrarSucursales('24')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="19.43919812"
+                                    data-longitude="-99.20253429">
+                                    OLD NAVY ANTARA
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="sucursal-item item-generic" data-height="siblings" style="min-height: 25px;">
+                            <div class="sucursal-item-summary item-generic-caption EDOMEX">
+                                <a onclick="mostrarSucursales('9')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="19.52515817" data-longitude="-99.2287828">
+                                    OLD NAVY MUNDO E
+                                </a>
+                                <a onclick="mostrarSucursales('10')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="19.45486788"
+                                    data-longitude="-99.21856419">
+                                    OLD NAVY PARQUE TOREO
+                                </a>
+                                <a onclick="mostrarSucursales('11')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="19.51009233"
+                                    data-longitude="-99.23383615">
+                                    OLD NAVY PLAZA SATÉLITE
+                                </a>
+                                <a onclick="mostrarSucursales('12')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="19.26804709"
+                                    data-longitude="-99.60499117">
+                                    OLD NAVY TOWN SQUARE METEPEC
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="sucursal-item item-generic" data-height="siblings" style="min-height: 25px;">
+                            <div class="sucursal-item-summary item-generic-caption JALISCO">
+                                <a onclick="mostrarSucursales('13')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="20.67794544"
+                                    data-longitude="-103.4324581">
+                                    OLD NAVY GALERIAS GUADALAJARA
+                                </a>
+                                <a onclick="mostrarSucursales('14')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="20.69470544"
+                                    data-longitude="-103.3766872">
+                                    OLD NAVY MIDTOWN JALISCO
+                                </a>
+                                <a onclick="mostrarSucursales('15')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="20.69452883"
+                                    data-longitude="-103.3766874">
+                                    OLD NAVY PUNTO SUR
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="sucursal-item item-generic" data-height="siblings" style="min-height: 25px;">
+                            <div class="sucursal-item-summary item-generic-caption MORELOS">
+                                <a onclick="mostrarSucursales('16')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="18.93388426"
+                                    data-longitude="-99.19665806">
+                                    OLD NAVY AVERANDA CUERNAVACA
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="sucursal-item item-generic" data-height="siblings" style="min-height: 25px;">
+                            <div class="sucursal-item-summary item-generic-caption NUEVO-LEON">
+                                <a onclick="mostrarSucursales('17')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="25.72005308"
+                                    data-longitude="-100.2186599">
+                                    OLD NAVY PASEO LA FE
+                                </a>
+                                <a onclick="mostrarSucursales('18')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="25.658834" data-longitude="-100.354731">
+                                    OLD NAVY PUNTO VALLE
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="sucursal-item item-generic" data-height="siblings" style="min-height: 25px;">
+                            <div class="sucursal-item-summary item-generic-caption PUEBLA">
+                                <a onclick="mostrarSucursales('19')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="19.03121762"
+                                    data-longitude="-98.23340278">
+                                    OLD NAVY ANGELÓPOLIS
+                                </a>
+                                <a onclick="mostrarSucursales('20')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="19.07077949"
+                                    data-longitude="-98.22539294">
+                                    OLD NAVY GALERÍAS SERDÁN
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="sucursal-item item-generic" data-height="siblings" style="min-height: 25px;">
+                            <div class="sucursal-item-summary item-generic-caption QUERÉTARO">
+                                <a onclick="mostrarSucursales('21')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="20.66036797"
+                                    data-longitude="-100.4318025">
+                                    OLD NAVY ANTEA QUERÉTARO
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="sucursal-item item-generic" data-height="siblings" style="min-height: 25px;">
+                            <div class="sucursal-item-summary item-generic-caption QUINTANA-ROO">
+                                <a onclick="mostrarSucursales('22')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="21.1467721" data-longitude="-86.8226617">
+                                    OLD NAVY MALECÓN AMÉRICAS
+                                </a>
+                                <a onclick="mostrarSucursales('23')" class="sucursal-item-title boton-lineal"
+                                    href="javascript:void(0);" data-latitude="20.62119242" data-longitude="-87.0762045">
+                                    OLD NAVY PASEO DEL CARMEN
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-xl-8">
+                    <div id="map"></div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="col-12 col-sm-12 col-xl-12">
+            <div class="footerContainer">
+                <div class="row justify-content-md-center">
+                    <div class="container text-center socialContainer">
+                        <ul>
+                            <li>Síguenos en:</li>
+                            <li class="socialNetwork socialFb">
+                                <a href="https://www.facebook.com/oldnavymx">FB</a>
+                            </li>
+                            <li class="socialNetwork socialInsta">
+                                <a href="https://www.instagram.com/oldnavy/">IN</a>
+                            </li>
+                            <li>#oldnavymexico</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container text-center footerPrivacy">
+                        <span class="">
+                            <a href="aviso-de-privacidad.html">Aviso de Privacidad</a>
+                        </span>
+                        <span class="">
+                            <a href="terminos-y-condiciones.html">Términos y Condiciones</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container text-center contact">
+                        <p class="">Contácto:</p>
+                        <p>Servicio al cliente Old Navy</p>
+                        <p>
+                            Boulevard Manuel Ávila Camacho No 5, Torre C,
+                            Piso 22, Fraccionamiento Lomas de Sotelo C.P
+                            53390, Naucalpan de Juárez, Estado de México
+                        </p>
+                        <p>servicioalcliente_oldnavy@grupoaxo.com.mx</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap&v=weekly" defer></script>
+    <script src="/resources/js/find-store.js"></script>
+</body>
+
+</html>

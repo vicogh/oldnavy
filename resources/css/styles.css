@@ -2,12 +2,6 @@ header {
 	padding: 5vh;
 	border-bottom: solid 1px gainsboro;
 }
-
-.textBlock {
-	position: relative;
-	padding: 5vh 0;
-}
-
 span {
 	color: #003764;
 	-webkit-font-smoothing: antialiased;
@@ -24,6 +18,112 @@ a:hover {
 footer {
 	margin-top: 5vh;
 	margin-bottom: 10vh;
+}
+
+input[type="color"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="datetime"],
+input[type="email"],
+input[type="file"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+select,
+textarea {
+	width: 100%;
+	height: 35px !important;
+	display: block;
+	clear: both;
+	padding-left: 1em;
+	padding-right: 1em;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #dddddd;
+	border-radius: 0;
+	font-size: 14px !important;
+	font-weight: 300;
+	color: #333333 !important;
+	background-color: rgba(255, 255, 255, 0.8);
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+*,
+:after,
+:before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	marker-offset: 0;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	color: inherit;
+}
+@font-face {
+	font-family: Gotham;
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url(/resources/css/fonts/7fa96aa0.woff2) format("woff2"),
+		url(undefined) format("woff");
+}
+
+@font-face {
+	font-family: Gotham;
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url(/resources/css/fonts/1ddab6f8.woff2) format("woff2"),
+		url(undefined) format("woff");
+}
+
+@font-face {
+	font-family: Gotham;
+	font-style: normal;
+	font-weight: 700;
+	font-display: auto;
+	src: url(/resources/css/fonts/d23d96ae.woff2) format("woff2"),
+		url(undefined) format("woff");
+}
+
+@font-face {
+	font-family: Gotham;
+	font-style: normal;
+	font-weight: 800;
+	font-display: auto;
+	src: url(/resources/css/fonts/a772a67e.woff2) format("woff2"),
+		url(undefined) format("woff");
+}
+@font-face {
+	font-family: Gotham-Medium;
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url(/resources/css/fonts/Gotham-Medium.woff2) format("woff2"),
+		url(undefined) format("woff");
+}
+@font-face {
+	font-family: Gotham-Bold;
+	font-style: normal;
+	font-weight: 700;
+	font-display: auto;
+	src: url(/resources/css/fonts/Gotham-Bold.woff2) format("woff2"),
+		url(undefined) format("woff");
+}
+.textBlock {
+	position: relative;
+	padding: 5vh 0;
 }
 
 .footerContainer {
@@ -115,6 +215,9 @@ footer {
 		display: block;
 		color: #003764;
 	}
+	.noPadding {
+		padding: unset;
+	}
 }
 
 .textDiscount {
@@ -198,4 +301,68 @@ footer {
 #map {
 	height: 400px;
 	width: 100%;
+}
+.tag-title {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.47px;
+	font-weight: 700;
+	font-size: 17px;
+	color: #333;
+	line-height: 16px;
+	padding-top: 10px;
+	font-family: Gotham-Bold, "Helvetica Neue", Helvetica, Arial, Roboto,
+		sans-serif;
+}
+.sucursal-list {
+	height: 245px;
+	margin-top: 20px;
+	overflow: auto;
+	background-color: #fff;
+	border: solid 10px #eeeeee;
+	padding: 15px;
+	margin-bottom: 45px;
+}
+.sucursal-item-summary a {
+	display: block;
+}
+body.stores main {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
+	font-weight: 300;
+	font-size: 0.87865em;
+}
+.flex {
+	display: -webkit-flex;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+.flex-item {
+	flex: 0 1 50%;
+}
+.direccion-sucursal > * {
+	display: block;
+}
+.title-Store {
+	font-size: 14px;
+	color: #333;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.address-Store,
+.phone-Store,
+.hour-Store {
+	color: #333;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 18px;
+	margin-bottom: 1em;
+}
+.direccion-sucursal {
+	margin: 15px 0;
 }
