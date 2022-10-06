@@ -59,7 +59,7 @@ function initMap() {
 		},
 		{
 			name: "Oasis",
-			location: { lat: 19.34623276, lng: -99.17860795 },
+			location: { lat: 19.3455, lng: -99.1797 },
 		},
 		{
 			name: "Parque Delta",
@@ -75,7 +75,7 @@ function initMap() {
 		},
 		{
 			name: "Perisur",
-			location: { lat: 19.30655275, lng: -99.18974971 },
+			location: { lat: 19.30422, lng: -99.18991 },
 		},
 		{
 			name: "Via vallejo",
