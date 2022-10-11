@@ -11,9 +11,7 @@ function initialize() {
 	map = new google.maps.Map(document.getElementById("map"), myOptions);
 
 	markerImage1 = {
-		url: "resources/images/PM-ON.png",
-		scaledSize: new google.maps.Size(35, 35),
-		anchor: new google.maps.Point(7, 7),
+		url: "resources/images/PM-ON-SMALL.png",
 	};
 
 	function markStore(storeInfo) {
