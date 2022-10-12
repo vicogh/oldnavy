@@ -27,7 +27,7 @@ function initialize() {
 	var stores = [
 		{
 			name: "Artz Pedregal",
-			location: { lat: 19.31390796, lng: -99.21933997 },
+			location: { lat: 19.31378341198439, lng: -99.2195556601776 },
 		},
 		{
 			name: "Forum Buenavista",
@@ -148,7 +148,9 @@ function mostrarSucursales(store) {
 	var info_div = document.getElementById("info_store");
 	switch (store) {
 		case "1":
-			map.setCenter(new google.maps.LatLng(19.31390796, -99.21933997));
+			map.setCenter(
+				new google.maps.LatLng(19.31378341198439, -99.2195556601776)
+			);
 			info_div.innerHTML =
 				"<span class='title-Store'>Artz Pedregal</span>" +
 				"<span class='address-Store'>Boulevard Adolfo Ruíz Cortinez #3729, Col. Jardines del Pedregal <br /> Alcaldía Alvaro Obregón <br />Ciudad de México <br />c.p. 1900 </span>" +
@@ -417,8 +419,13 @@ $(function () {
 				break;
 
 			case "EDOMEX":
-				map.setCenter(new google.maps.LatLng(19.3255486, -100.165447));
-				map.setZoom(11);
+				map.setCenter(
+					new google.maps.LatLng(
+						19.43000155902811,
+						-99.08704944251286
+					)
+				);
+				map.setZoom(10);
 				break;
 			case "JALISCO":
 				map.setCenter(
