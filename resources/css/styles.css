@@ -19,7 +19,9 @@ footer {
 	margin-top: 5vh;
 	margin-bottom: 10vh;
 }
-
+section:nth-child(2) {
+	margin-bottom: 2em;
+}
 input[type="color"],
 input[type="date"],
 input[type="datetime-local"],
@@ -365,4 +367,7 @@ body.stores main {
 }
 .direccion-sucursal {
 	margin: 15px 0;
+}
+section img {
+	width: 100vw;
 }
